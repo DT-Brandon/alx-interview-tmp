@@ -4,6 +4,7 @@
     to reach a number of  n H
 """
 
+
 def minOperations(n):
     """
     Calculate the minimum number of operations to reduce a number to 1.
