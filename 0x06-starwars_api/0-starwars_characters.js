@@ -16,7 +16,7 @@ request(url, async (err, response, body) => {
         }
         console.log(JSON.parse(body).name);
         resolve();
-      })
-    })
+      });
+    });
   }
-})
+});
